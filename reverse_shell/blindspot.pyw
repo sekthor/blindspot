@@ -76,7 +76,7 @@ def parseSysCommand(command):
 # opens the host.txt file which contains the host IP adress
 # for testing on a single machine, file should contain "localhost"
 def getIP():
-	file = open("host.txt", "r")
+	file = open("init.txt", "r")
 	return file.read()
 
 
